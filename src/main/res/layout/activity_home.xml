@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight"
+    tools:context="com.example.sairameshg.prci.Home">
+
+    <RelativeLayout
+        android:layout_width="383dp"
+        android:layout_height="516dp"
+        android:background="@drawable/bg2"
+        android:theme="@style/AppTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp"
+            android:background="@android:color/black"
+            android:contextClickable="true"
+            android:onClick="onB1Click"
+            android:text="Begin"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/B2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="44dp"
+            android:background="@android:color/black"
+            android:onClick="onB2Click"
+            android:text="Guidelines"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text='To Begin Directly the process of capturing Images\n Press the " BEGIN" button below\n'
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/B1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text='Get to know about the app details on Guidelines\n It consists of detailed information of \n 1. App Details\n 2. Flow details   etc..,\n Click the "GUIDELINES " button below\n'
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/B1"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/B1"
+            android:layout_marginTop="31dp"
+            android:text="\t \t \t HOME"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

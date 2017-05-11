@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight"
+    tools:context="com.example.sairameshg.prci.information_3">
+
+    <RelativeLayout
+        android:layout_width="399dp"
+        android:layout_height="534dp"
+        android:background="@drawable/bg2"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="-9dp">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="Nimbostratus "
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView14"
+            android:layout_marginTop="16dp"
+            android:text="When altostratus thickens and becomes rain-bearing, it becomes a nimbostratus cloud.\n Height of base : 2,000 - 10,000 ft \n Shape : Bands or areas of individual cells Latin : nimbus - rainy cloud; stratus - flattened or spread out \n Precipitation : Continuous rain or snow likely \n"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView15"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="101dp"
+            app:srcCompat="@drawable/nimbus" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView3"
+            android:text="What are nimbostratus clouds? \n Nimbostratus clouds are dark, grey, featureless layers of clouds, thick enough to block out the sun. Producing persistent rain, these clouds are often associated with frontal systems provided by mid-latitude cyclones. \n How do nimbostratus clouds form? \n Nimbostratus clouds form through the deepening and thickening of an altostratus cloud, often along warm or occluded fronts. \n "
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/B14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView16"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/black"
+            android:onClick="onB14Click"
+            android:text="Capture"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/B14"
+            android:fontFamily="cursive"
+            android:freezesText="true"
+            android:text="Now you can begin the process\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

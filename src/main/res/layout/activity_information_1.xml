@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight"
+    tools:context="com.example.sairameshg.prci.information_1">
+
+    ]
+
+    <RelativeLayout
+        android:layout_width="382dp"
+        android:layout_height="512dp"
+        android:background="@drawable/bg2"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="126dp"
+            android:layout_marginStart="126dp"
+            android:layout_marginTop="15dp"
+            android:text="INFORMATION"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="26dp"
+            android:text="1. cumulonimbus 'The King of Clouds'  \n These clouds exist through the entire height of the troposphere \n It usually characterised by their icy, anvil-shaped top.\n Height of base : 1,100 - 6,500 ft \n Shape : Fibrous upper edges, anvil top \n Latin: cumulus – heap ; \t nimbus - rainy cloud \n Precipitation : Heavy rain and thunderstorms "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView10"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="36dp"
+            app:srcCompat="@drawable/king" />
+
+        <Button
+            android:id="@+id/B08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/textView9"
+            android:layout_toRightOf="@+id/textView9"
+            android:background="@android:color/black"
+            android:onClick="onB08Click"
+            android:text="More"
+            android:textColor="@android:color/white" /><![CDATA[
+
+
+            android:layout_below="@+id/imageView7" />
+
+]]>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

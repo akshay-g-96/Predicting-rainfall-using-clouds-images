@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight"
+    tools:context="com.example.sairameshg.prci.information">
+
+    <RelativeLayout
+        android:layout_width="382dp"
+        android:layout_height="516dp"
+        android:background="@drawable/bg2"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:text="Cumulonimbus 'The King of Clouds'"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif"
+            android:text="What are cumulonimbus clouds? \n Cumulonimbus clouds are menacing looking multi-level clouds, extending high into the sky in towers or plumes.More commonly known as thunderclouds, cumulonimbus are the only cloud type that can produce hail, thunder and lighting. \n How do cumulonimbus clouds form? \n Cumulonimbus clouds are born through convection, often growing from small cumulus clouds over a hot surface. They get taller and taller until they represent huge powerhouses, storing the same amount of energy as 10 Hiroshima-sized atom bombs. They can also form along cold fronts as a result of forced convection, where milder air is forced to rise over the incoming cold air. \n What weather is associated with cumulonimbus clouds? \n Cumulonimbus clouds are associated with extreme weather such as heavy torrential downpours, hail storms, lightning and even tornadoes. Individual cumulonimbus cells will usually dissipate within an hour once showers start falling, making for short-lived, heavy rain. However multicell or supercell storms contain many cumulonimbus clouds and the intense rainfall may last much longer. \n If there is thunder, lightning or hail, the cloud is a cumulonimbus, rather than nimbostratus.   "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/B09"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:onClick="onB09Click"
+            android:text="Click here"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/B09"
+            android:layout_alignBottom="@+id/B09"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="cursive"
+            android:text="More on nimbostratus  click here"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
